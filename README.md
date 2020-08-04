@@ -1,4 +1,4 @@
-# Astra/Gatsby.js Starter
+# Next.js/Gatsby.js Starter
 A sample Next.js, DataStax Astra starter app.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
