@@ -12,7 +12,7 @@ export default function Home({ characters }) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Simple Next.js + <a href="https://www.astra.datastax.com/register">Astra</a> sample!
+          Simple Next.js + <a href="https://astra.datastax.com/register">Astra</a> sample!
         </h1>
         <p className={styles.description}>
           Get started by editing{' '}
