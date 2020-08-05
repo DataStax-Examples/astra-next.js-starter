@@ -7,29 +7,44 @@ Contributor: [Alex Leventer](https://github.com/alexleventer)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Falexleventer%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
 
 ## 🚀 Getting Started Paths:
-First, run the development server:
+1. [Run the app locally](#running-on-your-local-machine)
+2. [Run the app on Gitpod](#running-on-gitpod)
+3. [Deploy the app to Vercel](#deploying-to-vercel)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Running on your local machine
+1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Click 'Use this template' at the top of the README:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+3. Enter a repository name and click 'Create repository from template':
 
-## Learn More
+4. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+5. Install Node dependencies with [Yarn](https://yarnpkg.com/): `yarn install` (Alternatively, use npm: `npm install`)
+6. Run the set up script: ` . ./gitpod-setup.sh`
+7. Start your app by running: `yarn start`(If using npm: `npm start`)
+8. You can view your app at  http://localhost:8000/:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Running on Gitpod
+1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Click the 'Open in Gitpod link':
 
-## Deploy on Vercel
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-next.js-starter)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Wait for your Gitpod workspace to start:
+![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
+4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can find your database id here:
+![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+5. Click the 'Open browser' button in the bottom right of the screen:
+
+6. View your application:
+
+### Deploying to Vercel
+1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+2. Click the 'Deploy' button:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Falexleventer%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
