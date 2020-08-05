@@ -1,4 +1,4 @@
-# Next.js/Gatsby.js Starter
+# Next.js/Astra Starter
 A sample Next.js, DataStax Astra starter app.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-next.js-starter)
