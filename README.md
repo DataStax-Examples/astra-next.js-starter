@@ -33,24 +33,29 @@ Contributor: [Alex Leventer](https://github.com/alexleventer)
 
 ### Running on Gitpod
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 
 2. Click the 'Open in Gitpod link':
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-next.js-starter)
 
 3. Wait for your Gitpod workspace to start:
-![image](https://user-images.githubusercontent.com/3254549/88744125-5171c280-d0fb-11ea-9676-de4589e42589.png)
+![image](https://user-images.githubusercontent.com/3254549/89589934-a5676000-d7fb-11ea-9690-36b876bbdb86.png)
+
 4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
+![image](https://user-images.githubusercontent.com/3254549/89589982-c3cd5b80-d7fb-11ea-945f-a2413c456bb3.png)
 
 You can find your database id here:
 ![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
 5. Click the 'Open browser' button in the bottom right of the screen:
+![image](https://user-images.githubusercontent.com/3254549/89590054-e6f80b00-d7fb-11ea-8a26-de2a019db71f.png)
 
 6. View your application:
+![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
 
 ### Deploying to Vercel
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
-![image](https://user-images.githubusercontent.com/3254549/88737275-c938f080-d0ed-11ea-8273-f547da8ef9e6.png)
+![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 2. Click the 'Deploy' button:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Falexleventer%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
