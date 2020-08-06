@@ -13,17 +13,23 @@ Contributor: [Alex Leventer](https://github.com/alexleventer)
 
 ### Running on your local machine
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 
 2. Click 'Use this template' at the top of the README:
+![image](https://user-images.githubusercontent.com/3254549/89589520-9af89680-d7fa-11ea-9df2-38ded5884927.png)
 
 3. Enter a repository name and click 'Create repository from template':
+![image](https://user-images.githubusercontent.com/3254549/89589574-b794ce80-d7fa-11ea-9c0e-4c7168501441.png)
 
 4. Clone the repository:
+![image](https://user-images.githubusercontent.com/3254549/89589607-cb403500-d7fa-11ea-98a7-8cbf66f02639.png)
+
 
 5. Install Node dependencies with [Yarn](https://yarnpkg.com/): `yarn install` (Alternatively, use npm: `npm install`)
 6. Run the set up script: ` . ./gitpod-setup.sh`
 7. Start your app by running: `yarn start`(If using npm: `npm start`)
-8. You can view your app at  http://localhost:8000/:
+8. You can view your app at  http://localhost:3000/:
+![image](https://user-images.githubusercontent.com/3254549/89589853-6b965980-d7fb-11ea-80ff-62dfe4b31ddb.png)
 
 ### Running on Gitpod
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
