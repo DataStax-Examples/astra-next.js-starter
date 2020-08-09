@@ -3,8 +3,8 @@ A sample Next.js, [DataStax Astra](https://astra.datastax.com/register) starter 
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-next.js-starter)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Falexleventer%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-next.js-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FDataStax-Examples%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
 
 ## Objectives
 * Provide a fullstack development example using Astra as the storage backend
@@ -47,7 +47,7 @@ Once the Astra credentials are provided, the necessary tables are created in the
 
 2. Click the 'Open in Gitpod' link:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/alexleventer/astra-next.js-starter)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DataStax-Examples/astra-next.js-starter)
 
 3. Wait for your Gitpod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/89589934-a5676000-d7fb-11ea-9690-36b876bbdb86.png)
@@ -68,7 +68,7 @@ You can find your database id here:
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 2. Click the 'Deploy' button:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Falexleventer%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%DataStax-Examples%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
 
 3. Click continue:
 ![image](https://user-images.githubusercontent.com/3254549/89590194-232b6b80-d7fc-11ea-8dba-076b1a791a3e.png)
