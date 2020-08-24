@@ -26,7 +26,7 @@ Once the Astra credentials are provided, the necessary tables are created in the
 1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 
-2. Click 'Use this template at the top of the [Github File](https://github.com/DataStax-Examples/astra-next.js-starter):
+2. Click 'Use this template' at the top of [GitHub](https://github.com/DataStax-Examples/astra-next.js-starter):
 ![image](https://user-images.githubusercontent.com/3254549/89589520-9af89680-d7fa-11ea-9df2-38ded5884927.png)
 
 3. Enter a repository name and click 'Create repository from template':
