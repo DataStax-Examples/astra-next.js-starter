@@ -39,34 +39,34 @@ function setupTable() {
   # Get Astra auth token
   echo "Getting your Astra auth token..."
   AUTH_TOKEN=$(curl --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/auth" \
+    --url "https://${ASTRA_DB_ID// /}-${ASTRA_DB_REGION// /}.apps.astra.datastax.com/api/rest/v1/auth" \
     --header 'content-type: application/json' \
-    --data '{"username":"'"${ASTRA_DB_USERNAME}"'","password":"'"${ASTRA_DB_PASSWORD}"'"}' | jq -r '.authToken')
+    --data '{"username":"'"${ASTRA_DB_USERNAME// /}"'","password":"'"${ASTRA_DB_PASSWORD// /}"'"}' | jq -r '.authToken')
 
   # Create tables
   echo "Creating Astra tables..."
   TABLE_CREATION=$(curl --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables" \
+    --url "https://${ASTRA_DB_ID// /}-${ASTRA_DB_REGION// /}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE// /}/tables" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${AUTH_TOKEN// /}" \
     --data '{"ifNotExists":true,"columnDefinitions":[{"static":false,"name":"name","typeDefinition":"text"},{"static":false,"name":"id","typeDefinition":"int"},{"static":false,"name":"actorName","typeDefinition":"text"},{"static":false,"name":"houseName","typeDefinition":"text"},{"static":false,"name":"royal","typeDefinition":"boolean"}],"primaryKey":{"partitionKey":["name"]},"tableOptions":{"defaultTimeToLive":0},"name":"nextjs_characters"}')
 
   curl --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/nextis_characters/rows" \
+    --url "https://${ASTRA_DB_ID// /}-${ASTRA_DB_REGION// /}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE// /}/tables/nextis_characters/rows" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${AUTH_TOKEN// /}" \
     --data '{"columns":[{"name":"id","value":1},{"name":"name","value":"Jon Snow"},{"name":"actorname","value":"Kit Harington"},{"name":"housename","value":"Stark"},{"name":"royal","value":true}]}'
 
     curl --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/nextis_characters/rows" \
+    --url "https://${ASTRA_DB_ID// /}-${ASTRA_DB_REGION// /}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE// /}/tables/nextis_characters/rows" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${AUTH_TOKEN// /}" \
     --data '{"columns":[{"name":"id","value":2},{"name":"name","value":"Daenerys Targaryen"},{"name":"actorname","value":"Emilia Clark"},{"name":"housename","value":"Targaryen"},{"name":"royal","value":true}]}'
 
     curl --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/nextis_characters/rows" \
+    --url "https://${ASTRA_DB_ID// /}-${ASTRA_DB_REGION// /}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE// /}/tables/nextis_characters/rows" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${AUTH_TOKEN// /}" \
     --data '{"columns":[{"name":"id","value":3},{"name":"name","value":"Tyrion Lannister"},{"name":"actorname","value":"Peter Dinklage"},{"name":"housename","value":"Lannister"},{"name":"royal","value":false}]}'
 }
 
