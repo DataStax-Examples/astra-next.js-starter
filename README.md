@@ -4,7 +4,7 @@ A sample Next.js, [DataStax Astra](https://astra.datastax.com/register) starter 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2YtXWVU)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FDataStax-Examples%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
+[![Deploy with Vercel](https://vercel.com/button)](https://dtsx.io/3aUg00p)
 
 ## Objectives
 * Provide a fullstack development example using Astra as the storage backend
@@ -68,7 +68,7 @@ You can find your database id here:
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 2. Click the 'Deploy' button:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%DataStax-Examples%2Fastra-next.js-starter&env=ASTRA_DB_USERNAME,ASTRA_DB_PASSWORD,ASTRA_DB_ID,ASTRA_DB_REGION)
+[![Deploy with Vercel](https://vercel.com/button)](https://dtsx.io/3aUg00p)
 
 3. Click continue:
 ![image](https://user-images.githubusercontent.com/3254549/89590194-232b6b80-d7fc-11ea-8dba-076b1a791a3e.png)
