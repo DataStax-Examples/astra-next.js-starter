@@ -3,9 +3,6 @@ A sample Next.js, [DataStax Astra](https://astra.datastax.com/register) starter 
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2YtXWVU)
-[![Deploy with Vercel](https://vercel.com/button)](https://dtsx.io/3aUg00p)
-
 ## Objectives
 * Provide a fullstack development example using Astra as the storage backend
 
