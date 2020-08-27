@@ -74,8 +74,11 @@ Then you'll find it on the summary page here:
 3. Click continue:
 ![image](https://user-images.githubusercontent.com/3254549/89590194-232b6b80-d7fc-11ea-8dba-076b1a791a3e.png)
 
-4. Enter your Astra database details and click deploy:
+4. Install Vercel for Github: 
+![Screen Shot 2020-08-27 at 9 58 50 AM](https://user-images.githubusercontent.com/69874632/91472193-f6430500-e84b-11ea-8a93-4b0b2773076c.png)
+
+5. Enter your Astra database details and click deploy:
 ![image](https://user-images.githubusercontent.com/3254549/89590278-553ccd80-d7fc-11ea-91b1-6d61c2aae20f.png)
 
-5. Click visit to view your live app:
+6. Click visit to view your live app:
 ![image](https://user-images.githubusercontent.com/3254549/89590361-9208c480-d7fc-11ea-9692-92fc3e71b1ad.png)
