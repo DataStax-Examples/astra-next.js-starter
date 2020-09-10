@@ -7,7 +7,6 @@ A sample Next.js, [DataStax Astra](https://astra.datastax.com/register) starter 
 
 Contributor: [Alex Leventer](https://github.com/alexleventer)
 
-
 ## Objectives
 * Provide a fullstack development example using Astra as the storage backend
 
