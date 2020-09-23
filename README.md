@@ -1,7 +1,7 @@
 # Next.js/Astra Starter
 *10 minutes, Beginner*
 
-A sample Next.js, [DataStax Astra](https://astra.datastax.com/register) starter app.
+A sample Next.js, [DataStax Astra](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-nextjs-starter) starter app.
 
 ![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
 
@@ -24,7 +24,7 @@ Once the Astra credentials are provided, the necessary tables are created in the
 3. [Deploy the app to Vercel](#deploying-to-vercel)
 
 ### Running on your local machine
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-nextjs-starter) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 
 2. Click 'Use this template' at the top of [GitHub](https://github.com/DataStax-Examples/astra-next.js-starter):
@@ -69,7 +69,7 @@ Then you'll find it on the summary page here:
 ![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
 
 ### Deploying to Vercel
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-nextjs-starter) and free-tier Cassandra database:
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 2. Click the 'Deploy' button:
 
