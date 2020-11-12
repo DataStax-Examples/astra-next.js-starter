@@ -48,7 +48,7 @@ Once the Astra credentials are provided, the necessary tables are created in the
 
 2. Click the 'Open in Gitpod' link:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2YtXWVU)
+[![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2YtXWVU)
 
 3. Wait for your Gitpod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/89589934-a5676000-d7fb-11ea-9690-36b876bbdb86.png)
