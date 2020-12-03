@@ -1,7 +1,9 @@
+<!--- STARTEXCLUDE --->
 # Next.js/Astra Starter
 *10 minutes, Beginner*
 
 A sample Next.js, [DataStax Astra](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-next.js-starter) starter app.
+<!--- ENDEXCLUDE --->
 
 ![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
 
