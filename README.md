@@ -43,19 +43,19 @@ Once the Astra credentials are provided, the necessary tables are created in the
 ![image](https://user-images.githubusercontent.com/3254549/89589853-6b965980-d7fb-11ea-80ff-62dfe4b31ddb.png)
 
 ### Running on Gitpod
-1. Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
+1) Create a [DataStax Astra account](https://astra.datastax.com/register) and free-tier Cassandra database:
 
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 
-2. Click the 'Open in Gitpod' link:
+2) Click the 'Open in Gitpod' link:
 
 [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2YtXWVU)
 
-3. Wait for your Gitpod workspace to start:
+3) Wait for your Gitpod workspace to start:
 
 ![image](https://user-images.githubusercontent.com/3254549/89589934-a5676000-d7fb-11ea-9690-36b876bbdb86.png)
 
-4. Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
+4) Set your Astra credentials in the Gitpod terminal at the bottom of the screen:
 
 ![image](https://user-images.githubusercontent.com/3254549/89589982-c3cd5b80-d7fb-11ea-945f-a2413c456bb3.png)
 
@@ -67,9 +67,12 @@ Then you'll find it on the summary page here:
 
 ![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
 
-5. Click the 'Open browser' button in the bottom right of the screen:
+5) Click the 'Open browser' button in the bottom right of the screen:
+
 ![image](https://user-images.githubusercontent.com/3254549/89590054-e6f80b00-d7fb-11ea-8a26-de2a019db71f.png)
-6. View your application:
+
+6) View your application:
+
 ![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
 
 ### Deploying to Vercel
