@@ -111,14 +111,36 @@ Then you'll find it on the summary page here:
 
 ### Deploying to Vercel
 1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-nextjs-starter) and free-tier Cassandra database:
+
+
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
+
+
 2. Click the 'Deploy' button:
+
+
 [![Deploy with Vercel](https://vercel.com/button)](https://dtsx.io/3aUg00p)
+
+
 3. Click continue:
+
+
 ![image](https://user-images.githubusercontent.com/3254549/89590194-232b6b80-d7fc-11ea-8dba-076b1a791a3e.png)
+
+
 4. Install Vercel for Github: 
+
+
 ![Screen Shot 2020-08-27 at 9 58 50 AM](https://user-images.githubusercontent.com/69874632/91472193-f6430500-e84b-11ea-8a93-4b0b2773076c.png)
+
+
 5. Enter your Astra database details and click deploy:
+
+
 ![image](https://user-images.githubusercontent.com/3254549/89590278-553ccd80-d7fc-11ea-91b1-6d61c2aae20f.png)
+
+
 6. Click visit to view your live app:
+
+
 ![image](https://user-images.githubusercontent.com/3254549/89590361-9208c480-d7fc-11ea-9692-92fc3e71b1ad.png)
