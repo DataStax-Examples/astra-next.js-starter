@@ -31,7 +31,11 @@ Once the Astra credentials are provided, the necessary tables are created in the
 ![image](https://user-images.githubusercontent.com/3254549/89589429-76042380-d7fa-11ea-917a-9bb1b1f11203.png)
 <!--- ENDEXCLUDE --->
 2. Click 'Use this template' at the top of [GitHub](https://github.com/DataStax-Examples/astra-next.js-starter):
+
+
 ![image](https://user-images.githubusercontent.com/3254549/89589520-9af89680-d7fa-11ea-9df2-38ded5884927.png)
+
+
 3. Enter a repository name and click 'Create repository from template':
 ![image](https://user-images.githubusercontent.com/3254549/89589574-b794ce80-d7fa-11ea-9c0e-4c7168501441.png)
 4. Clone the repository:
