@@ -85,16 +85,9 @@ Once the Astra credentials are provided, the necessary tables are created in the
 ![image](https://user-images.githubusercontent.com/3254549/89589982-c3cd5b80-d7fb-11ea-945f-a2413c456bb3.png)
 
 
-You can find your database ID by clicking on your database name:
+You can find your database ID by clicking on your database name and viewing the summary:
 
-
-![Screen Shot 2020-08-27 at 9 26 50 AM](https://user-images.githubusercontent.com/69874632/91469019-b11cd400-e847-11ea-83ea-fbf4227d40dc.png)
-
-
-Then you'll find it on the summary page here:
-
-
-![image](https://user-images.githubusercontent.com/3254549/88744238-a1508980-d0fb-11ea-83fc-6efc6b370780.png)
+![Group 9](https://user-images.githubusercontent.com/69874632/101193257-2bac7b00-3611-11eb-9071-95ed9bb78386.png)
 
 
 5) Click the 'Open browser' button in the bottom right of the screen:
