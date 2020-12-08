@@ -10,27 +10,27 @@ Let's do some initial setup.
 
 ### DataStax Astra
 <!--- enter a unique UTM_CODE for your sample app below --->
-Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-nextjs-starter) if you don't 
+1. Create a [DataStax Astra account](https://astra.datastax.com/register?utm_source=github&utm_medium=referral&utm_campaign=astra-nextjs-starter) if you don't 
 already have one:
 ![image](https://astra-screenshots.s3.amazonaws.com/current/register-basic-auth.png)
 
-Create an (always) free-tier Cassandra database (take note of your db password):
+2. Create an (always) free-tier Cassandra database (take note of your db password):
 ![image](https://user-images.githubusercontent.com/69874632/101203026-ef801700-361e-11eb-8321-de2d65259763.png)
 ![image](https://user-images.githubusercontent.com/69874632/101203076-0292e700-361f-11eb-88ee-1f6356f4d7dc.png)
 ![image](https://user-images.githubusercontent.com/69874632/101203115-12aac680-361f-11eb-9087-8ff5cb9516d7.png)
 
-After your database is provisioned, head to the `Connect` screen and copy your connection 
+3. After your database is provisioned, head to the `Connect` screen and copy your connection 
 information (we'll need this later!):
 ![image](https://user-images.githubusercontent.com/69874632/101203076-0292e700-361f-11eb-88ee-1f6356f4d7dc.png)
 
 ### Github
-Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/astra-next.js-starter):
+1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/astra-next.js-starter):
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-use-template.png)
 
-Enter a repository name and click 'Create repository from template':
+2. Enter a repository name and click 'Create repository from template':
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-create-repository.png)
 
-Clone the repository:
+3. Clone the repository:
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-clone.png)
 
 
