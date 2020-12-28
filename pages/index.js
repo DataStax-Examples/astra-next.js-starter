@@ -23,8 +23,8 @@ export default function Home({ characters }) {
             return (<div key={character.id} className={styles.card}>
               <h3>{character.name}</h3>
               <p>
-                  <b>Actor:</b> {character.actorName}<br/>
-                  <b>House:</b> {character.houseName}
+                  <b>Actor:</b> {character.actor_name}<br/>
+                  <b>House:</b> {character.house_name}
               </p>
             </div>);
           })}
