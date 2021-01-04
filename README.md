@@ -62,7 +62,7 @@ information (we'll need this later!):
 ## 🚀 Getting Started Paths:
 *Make sure you've completed the [prerequisites](#prerequisites) before starting this step*
   - [Running on your local machine](#running-on-your-local-machine)
-  - [Running on Gitpod](#running-on-gitpod)
+  - [Running on GitPod](#running-on-gitpod)
   - [Deploying to Vercel](#deploying-to-vercel)
 
 ### Running on your local machine
@@ -76,14 +76,14 @@ information (we'll need this later!):
 4. You can view your app at  http://localhost:3000/:
 ![image](https://user-images.githubusercontent.com/3254549/89589853-6b965980-d7fb-11ea-80ff-62dfe4b31ddb.png)
 
-### Running on Gitpod
-1. Click the 'Open in Gitpod' link: 
+### Running on GitPod
+1. Click the 'Open in GitPod' link: 
 [![Open in IDE](https://gitpod.io/button/open-in-gitpod.svg)](https://dtsx.io/2YtXWVU)
 
-2. Wait for your Gitpod workspace to start:
+2. Wait for your GitPod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/89589934-a5676000-d7fb-11ea-9690-36b876bbdb86.png)
 
-3. Set your Astra credentials (from [prerequisites](#prerequisites)) in the Gitpod terminal at the bottom of the screen:
+3. Set your Astra credentials (from [prerequisites](#prerequisites)) in the GitPod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/89589982-c3cd5b80-d7fb-11ea-945f-a2413c456bb3.png)
 
 4. Click the 'Open browser' button in the bottom right of the screen:
