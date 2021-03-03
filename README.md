@@ -51,6 +51,10 @@ information (we'll need this later!):
 information (we'll need this later!):
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-settings-token.png)
 
+8. After you have your Application Token, head to the database connect screen and copy the connection information that we'll need later. We'll replace `ASTRA_DB_APPLICATION_TOKEN` with the `Token` value that is part of your Application Token.
+information (we'll need this later!):
+![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-db-connect.png)
+
 ### Github
 1. Click `Use this template` at the top of the [GitHub Repository](https://github.com/DataStax-Examples/astra-next.js-starter):
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/github-use-template.png)
