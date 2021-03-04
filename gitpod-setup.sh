@@ -1,18 +1,11 @@
 #!/bin/bash
 
 function setupTable() {
-  if [[ -z "$ASTRA_DB_USERNAME" ]]; then
+  if [[ -z "$ASTRA_DB_APPLICATION_TOKEN" ]]; then
     echo "What is your Astra DB username? 🚀"
-    read -r ASTRA_DB_USERNAME
-    export ASTRA_DB_USERNAME="${ASTRA_DB_USERNAME// /}"
-    gp env ASTRA_DB_USERNAME="${ASTRA_DB_USERNAME// /}" &>/dev/null
-  fi
-
-  if [[ -z "$ASTRA_DB_PASSWORD" ]]; then
-    echo "What is your Astra DB password? 🔒"
-    read -s ASTRA_DB_PASSWORD
-    export ASTRA_DB_PASSWORD="${ASTRA_DB_PASSWORD// /}"
-    gp env ASTRA_DB_PASSWORD="${ASTRA_DB_PASSWORD// /}" &>/dev/null
+    read -r ASTRA_DB_APPLICATION_TOKEN
+    export ASTRA_DB_APPLICATION_TOKEN="${ASTRA_DB_APPLICATION_TOKEN// /}"
+    gp env ASTRA_DB_APPLICATION_TOKEN="${ASTRA_DB_APPLICATION_TOKEN// /}" &>/dev/null
   fi
 
   if [[ -z "$ASTRA_DB_KEYSPACE" ]]; then
@@ -36,37 +29,30 @@ function setupTable() {
     gp env ASTRA_DB_REGION="${ASTRA_DB_REGION// /}" &>/dev/null
   fi
 
-  # Get Astra auth token
-  echo "Getting your Astra auth token..."
-  AUTH_TOKEN=$(curl --request POST \
-    --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/auth" \
-    --header 'content-type: application/json' \
-    --data '{"username":"'"${ASTRA_DB_USERNAME}"'","password":"'"${ASTRA_DB_PASSWORD}"'"}' | jq -r '.authToken')
-
   # Create tables
   echo "Creating Astra tables..."
   TABLE_CREATION=$(curl --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${ASTRA_DB_APPLICATION_TOKEN}" \
     --data '{"ifNotExists":true,"columnDefinitions":[{"static":false,"name":"name","typeDefinition":"text"},{"static":false,"name":"id","typeDefinition":"int"},{"static":false,"name":"actor_name","typeDefinition":"text"},{"static":false,"name":"house_name","typeDefinition":"text"},{"static":false,"name":"royal","typeDefinition":"boolean"}],"primaryKey":{"partitionKey":["name"]},"tableOptions":{"defaultTimeToLive":0},"name":"nextjs_characters"}')
 
   curl --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/nextjs_characters/rows" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${ASTRA_DB_APPLICATION_TOKEN}" \
     --data '{"columns":[{"name":"id","value":1},{"name":"name","value":"Jon Snow"},{"name":"actor_name","value":"Kit Harington"},{"name":"house_name","value":"Stark"},{"name":"royal","value":true}]}'
 
     curl --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/nextjs_characters/rows" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${ASTRA_DB_APPLICATION_TOKEN}" \
     --data '{"columns":[{"name":"id","value":2},{"name":"name","value":"Daenerys Targaryen"},{"name":"actor_name","value":"Emilia Clark"},{"name":"house_name","value":"Targaryen"},{"name":"royal","value":true}]}'
 
     curl --request POST \
     --url "https://${ASTRA_DB_ID}-${ASTRA_DB_REGION}.apps.astra.datastax.com/api/rest/v1/keyspaces/${ASTRA_DB_KEYSPACE}/tables/nextjs_characters/rows" \
     --header 'content-type: application/json' \
-    --header "x-cassandra-token: ${AUTH_TOKEN}" \
+    --header "x-cassandra-token: ${ASTRA_DB_APPLICATION_TOKEN}" \
     --data '{"columns":[{"name":"id","value":3},{"name":"name","value":"Tyrion Lannister"},{"name":"actor_name","value":"Peter Dinklage"},{"name":"house_name","value":"Lannister"},{"name":"royal","value":false}]}'
 }
 
@@ -79,7 +65,6 @@ while [ ! "$TABLE_CREATION" = '{"success":true}' ]; do
   unset ASTRA_DB_ID
   unset ASTRA_DB_REGION
   unset ASTRA_DB_KEYSPACE
-  unset ASTRA_DB_PASSWORD
-  unset ASTRA_DB_USERNAME
+  unset ASTRA_DB_APPLICATION_TOKEN
   setupTable
 done

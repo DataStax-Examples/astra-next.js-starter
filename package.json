@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@astrajs/rest": "0.0.12",
     "next": "10.0.3",
     "react": "17.0.1",
     "react-dom": "17.0.1"
