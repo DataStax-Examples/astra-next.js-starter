@@ -1,6 +1,6 @@
 {
-  "name": "Next.js/Astra Starter",
-  "description": "A sample Next.js + DataStax Astra starter app that leverages the AstraDB REST API to manage a character database.",
+  "name": "Next.js and Astra DB Starter",
+  "description": "A sample Next.js + DataStax Astra DB starter app that leverages the Astra DB REST API to manage a character database.",
   "duration": "10 minutes",
   "skillLevel": "Beginner",
   "gitpodUrl": "https://dtsx.io/2YtXWVU",

@@ -1,17 +1,17 @@
 <!--- STARTEXCLUDE --->
-# Next.js/Astra Starter
+# Next.js and Astra DB Starter
 *10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-next.js-starter#prerequisites)*
 
-A sample Next.js + [DataStax Astra](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-next.js-starter) starter app that leverages the AstraDB REST API to manage a character database.
+A sample Next.js + [DataStax Astra DB](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=astra-next.js-starter) starter app that leverages the AstraDB REST API to manage a character database.
 <!--- ENDEXCLUDE --->
 
 ![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
 
 ## Objectives
-* Provide a fullstack development example using Astra as the storage backend
+* Provide a fullstack development example using Astra DB as the storage backend
 
 ## How this works
-Once the Astra credentials are provided, the necessary tables are created in the database and sample data is inserted. The webservice will be available on port 3000 once the application has been deployed. Once the application is running, you can begin to make changes to your app by editing `pages/index.js`.
+Once the Astra DB credentials are provided, the necessary tables are created in the database and sample data is inserted. The webservice will be available on port 3000 once the application has been deployed. Once the application is running, you can begin to make changes to your app by editing `pages/index.js`.
 
 [Next.js](https://nextjs.org/) is an open-source JavaScript framework that lets you build server-side rendering and static web applications using React. It is not nescessary to configuration of webpack or similar to start using Next.js, as it comes with its configuration. This make it very simple to start a project, as we only need to execute simple commands and the project is ready.
 
@@ -21,7 +21,7 @@ Once the Astra credentials are provided, the necessary tables are created in the
 To build and play with this app, follow the build instructions that are located here: [https://github.com/DataStax-Examples/astra-next.js-starter](https://github.com/DataStax-Examples/astra-next.js-starter#prerequisites)
 
 <!--- STARTEXCLUDE --->
-# Running Next.js/Astra Starter
+# Running the Next.js and Astra DB Starter
 Follow the instructions below to get started.
 
 ## Prerequisites
@@ -86,7 +86,7 @@ Let's do some initial setup by creating a serverless(!) database.
 2. Wait for your GitPod workspace to start:
 ![image](https://user-images.githubusercontent.com/3254549/89589934-a5676000-d7fb-11ea-9690-36b876bbdb86.png)
 
-3. Set your Astra credentials (from [prerequisites](#prerequisites)) in the GitPod terminal at the bottom of the screen:
+3. Set your Astra DB credentials (from [prerequisites](#prerequisites)) in the GitPod terminal at the bottom of the screen:
 ![image](https://user-images.githubusercontent.com/3254549/89589982-c3cd5b80-d7fb-11ea-945f-a2413c456bb3.png)
 
 4. Click the 'Open browser' button in the bottom right of the screen:
@@ -105,7 +105,7 @@ Let's do some initial setup by creating a serverless(!) database.
 3. Install Vercel for Github: 
 ![Screen Shot 2020-08-27 at 9 58 50 AM](https://user-images.githubusercontent.com/69874632/91472193-f6430500-e84b-11ea-8a93-4b0b2773076c.png)
 
-4. Enter your Astra database details and click deploy:
+4. Enter your Astra DB details and click deploy:
 ![image](https://user-images.githubusercontent.com/3254549/89590278-553ccd80-d7fc-11ea-91b1-6d61c2aae20f.png)
 
 5. Click visit to view your live app:
