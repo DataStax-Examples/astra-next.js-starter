@@ -2,7 +2,7 @@
 # Next.js and Astra DB Starter
 *10 minutes, Beginner, [Start Building](https://github.com/DataStax-Examples/astra-next.js-starter#prerequisites)*
 
-A sample Next.js + [DataStax Astra DB](https://dtsx.io/3zDmFrH) starter app that leverages the AstraDB REST API to manage a character database.
+A sample Next.js + [DataStax Astra DB](https://dtsx.io/3BzlUQU) starter app that leverages the AstraDB REST API to manage a character database.
 <!--- ENDEXCLUDE --->
 
 ![image](https://user-images.githubusercontent.com/3254549/89590110-ff682580-d7fb-11ea-8e3a-47e3b552fc19.png)
@@ -28,7 +28,7 @@ Follow the instructions below to get started.
 Let's do some initial setup by creating a serverless(!) database.
 
 ### DataStax Astra
-1. Create a [DataStax Astra account](https://dtsx.io/3zDmFrH) if you don't already have one:
+1. Create a [DataStax Astra account](https://dtsx.io/3BzlUQU) if you don't already have one:
 ![image](https://raw.githubusercontent.com/DataStax-Examples/sample-app-template/master/screenshots/astra-register-basic-auth.png)
 
 2. On the home page. Locate the button **`Create Database`**
