@@ -8,5 +8,6 @@
   "githubUrl": "https://github.com/DataStax-Examples/astra-next.js-starter",
   "tags": [{ "name": "javascript" }, { "name": "REST API" }],
   "category": "starters",
-  "priority": 1
+  "priority": 1,
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/astra-nextjs-starter/master/hero.png"
 }
