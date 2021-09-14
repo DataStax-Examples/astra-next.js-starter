@@ -9,5 +9,5 @@
   "tags": [{ "name": "javascript" }, { "name": "REST API" }],
   "category": "starters",
   "priority": 1,
-  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/astra-nextjs-starter/master/hero.png"
+  "heroImage": "https://raw.githubusercontent.com/DataStax-Examples/astra-next.js-starter/master/hero.png"
 }

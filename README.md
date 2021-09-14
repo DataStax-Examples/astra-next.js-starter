@@ -5,7 +5,7 @@
 A sample Next.js + [DataStax Astra DB](https://dtsx.io/3BzlUQU) starter app that leverages the AstraDB REST API to manage a character database.
 <!--- ENDEXCLUDE --->
 
-![image](https://raw.githubusercontent.com/DataStax-Examples/astra-nextjs-starter/master/hero.png)
+![image](https://raw.githubusercontent.com/DataStax-Examples/astra-next.js-starter/master/hero.png)
 
 ## Objectives
 * Provide a fullstack development example using Astra DB as the storage backend
