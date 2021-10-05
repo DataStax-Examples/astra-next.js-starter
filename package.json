@@ -1,19 +1,21 @@
 {
-  "name": "astra-next.js-starter",
+  "name": "astra-nextjs-starter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@astrajs/rest": "^0.0.13",
-    "next": "10.0.3",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "@astrajs/client": "^0.2.2",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^14.14.13"
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
   }
 }
