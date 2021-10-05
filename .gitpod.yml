@@ -1,8 +1,6 @@
-image: gitpod/workspace-full
 tasks:
-  - init: npm i
-    command: npm run dev
-ports:
-  - port: 3000
-    onOpen: open-browser
-    visibility: public
+  - name: nodejs
+    before: |
+      npm install
+    command: |
+      gp open README.md
