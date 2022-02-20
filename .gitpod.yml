@@ -4,3 +4,7 @@ tasks:
       npm install
     command: |
       gp open README.md
+ports:
+  - port: 3000
+    onOpen: open-browser
+    visibility: public
